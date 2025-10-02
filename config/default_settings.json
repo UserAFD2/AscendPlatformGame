@@ -1,0 +1,90 @@
+{
+    "game_configurations": {
+        "settings": {
+            "debug_settings": {
+                "debug_mode": "False",
+                "draw_enemy_line_path": "False",
+                "draw_enemy_block_path": "False",
+                "display_player_stats": "False",
+                "display_player_hitbox": "False",
+                "display_fps": "False"
+            },
+            "gameplay_settings": {
+                "display_name_tags": "False",
+                "display_moving_clouds": "False"
+            },
+            "video_settings": {
+                "fullscreen": "True"
+            },
+            "audio_settings": {
+                "music_volume": 0.5,
+                "sound_volume": 0.5
+            }
+        },
+        "config": {
+            "player_settings": {
+                "player_dimensions": {
+                    "frame_size": {
+                        "width": 150,
+                        "height": 130
+                    },
+                    "hitbox_size": {
+                        "width": 30,
+                        "height": 60
+                    }
+                },
+                "player_colour": {
+                    "red": 0,
+                    "green": 0,
+                    "blue": 255
+                },
+                "movement": {
+                    "main_keys": {
+                        "move_left": "pygame.K_a",
+                        "move_right": "pygame.K_d",
+                        "jump": "pygame.K_SPACE",
+                        "climb": "pygame.K_w"
+                    },
+                    "alternative_keys": {
+                        "move_left": "pygame.K_LEFT",
+                        "move_right": "pygame.K_RIGHT",
+                        "jump": "pygame.K_SPACE",
+                        "climb": "pygame.K_UP"
+                    },
+                    "walk_speed": 4,
+                    "gravity_speed": 0.6,
+                    "terminal_velocity": 15
+                },
+                "collision_buffer": {
+                    "vertical": 10
+                },
+                "spawn_position": [
+                    300,
+                    1000
+                ]
+            },
+            "enemy_settings": {
+                "enemy_colour": {
+                    "red": 255,
+                    "green": 0,
+                    "blue": 0
+                },
+                "enemy_speed": 2,
+                "enemy_spawn_positions": [
+                    [
+                        100,
+                        100
+                    ],
+                    [
+                        500,
+                        100
+                    ],
+                    [
+                        900,
+                        100
+                    ]
+                ]
+            }
+        }
+    }
+}

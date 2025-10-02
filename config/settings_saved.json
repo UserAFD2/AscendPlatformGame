@@ -1,0 +1,134 @@
+{
+    "game_configurations": {
+        "paths": {
+            "player_sprite": "Pixel Prototype Player\\Sprites",
+            "levels_paths": {
+                "base_path": "levels\\",
+                "files": {
+                    "level1_tmx": "level1.tmx",
+                    "level2_tmx": "level2.tmx"
+                }
+            }
+        },
+        "settings": {
+            "loading_weights": {
+                "1": 0.00045557956839530636,
+                "2": 10.672987833178151,
+                "3": 0.00019362131656800523,
+                "4": 16.54930367510343,
+                "5": 66.28490237784061,
+                "6": 6.492054407589956,
+                "7": 0.00010250540288894395
+            },
+            "loading_stages": {
+                "1": "Preparing Game Environment (1/7)",
+                "2": "Building the World (2/7)",
+                "3": "Setting Up Characters (3/7)",
+                "4": "Bringing Characters to Life (4/7)",
+                "5": "Creating Game Elements (5/7)",
+                "6": "Loading Menus and Interface (6/7)",
+                "7": "Final Touches (7/7)"
+            },
+            "debug_settings": {
+                "debug_mode": false,
+                "draw_enemy_line_path": false,
+                "draw_enemy_block_path": false,
+                "display_player_stats": false,
+                "display_player_hitbox": false,
+                "display_fps": false
+            },
+            "gameplay_settings": {
+                "display_player_sprite": true,
+                "display_hud": true,
+                "display_name_tags": false
+            },
+            "video_settings": {
+                "mode": "windowed",
+                "resolution": [
+                    1280,
+                    720
+                ]
+            },
+            "audio_settings": {
+                "music_volume": 0.5,
+                "sound_volume": 0.03
+            }
+        },
+        "config": {
+            "player_settings": {
+                "highscore": 255,
+                "last_5_games": [
+                    [
+                        2,
+                        165
+                    ],
+                    [
+                        2,
+                        225
+                    ],
+                    [
+                        2,
+                        135
+                    ],
+                    [
+                        1,
+                        90
+                    ],
+                    [
+                        1,
+                        30
+                    ]
+                ],
+                "player_dimensions": {
+                    "frame_size": [
+                        150,
+                        130
+                    ],
+                    "hitbox_size": [
+                        30,
+                        60
+                    ]
+                },
+                "player_colour": [
+                    0,
+                    0,
+                    255
+                ],
+                "movement": {
+                    "main_keys": {
+                        "move_left": "pygame.K_a",
+                        "move_right": "pygame.K_d",
+                        "jump": "pygame.K_SPACE",
+                        "climb": "pygame.K_w"
+                    },
+                    "alternative_keys": {
+                        "move_left": "pygame.K_LEFT",
+                        "move_right": "pygame.K_RIGHT",
+                        "jump": "pygame.K_SPACE",
+                        "climb": "pygame.K_UP"
+                    },
+                    "walk_speed": 4,
+                    "gravity_speed": 0.6,
+                    "terminal_velocity": 15,
+                    "jump_speed": 10,
+                    "climb_speed": 3
+                },
+                "collision_buffer": {
+                    "vertical": 10
+                },
+                "spawn_position": [
+                    300,
+                    1000
+                ]
+            },
+            "enemy_settings": {
+                "enemy_colour": [
+                    255,
+                    0,
+                    0
+                ],
+                "enemy_speed": 2
+            }
+        }
+    }
+}
